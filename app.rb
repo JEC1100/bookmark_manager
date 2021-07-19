@@ -8,7 +8,7 @@ class BookmarkManager < Sinatra::Base
     end
 
   get "/" do
-    "content"
+    "[bookmark1, bookmark2]"
   end
 
 
