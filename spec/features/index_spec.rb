@@ -1,5 +1,5 @@
 require_relative "../../app.rb"
-# require_relative ‘$/app.rb’
+
 
 feature "BookmarkManager" do
   scenario "directs to bookmarks and lists them" do

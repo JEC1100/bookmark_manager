@@ -1,5 +1,6 @@
 require 'sinatra/base'
 require 'sinatra/reloader'
+require './model/logic'
 
 class BookmarkManager < Sinatra::Base
 
@@ -13,6 +14,7 @@ class BookmarkManager < Sinatra::Base
   end
 
   get "/bookmark" do
+    @logic = Logic.all
     erb :bookmark
 end
 
