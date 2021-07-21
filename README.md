@@ -21,3 +21,10 @@ Show a list of bookmarks
 Domain sequence model
 
 
+SETTING UP DATABASE
+
+- install postgress
+- connect to pSQL through the terminal
+- create the database using the psql command \c bookmark_manager;
+- run the query we have saved in the file 01_create_bookmarks_table.sql
+
