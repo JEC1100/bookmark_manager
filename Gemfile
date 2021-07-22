@@ -5,7 +5,7 @@ gem "capybara"
 gem "rspec"
 gem "rubocop"
 gem "sinatra-contrib"
-
+gem 'pg'
 
 
 gem 'simplecov-console', require: false
