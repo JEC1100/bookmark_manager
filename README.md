@@ -1,4 +1,6 @@
 
+![Bookmark Manager domain model](./public/images/bookmark_manager_10.png)
+
 ### To set up the database
 
  Connect to `psql` and create the `bookmark_manager` database:

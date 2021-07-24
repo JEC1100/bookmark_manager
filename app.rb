@@ -4,7 +4,7 @@ require './model/bookmark'
 
 class BookmarkManager < Sinatra::Base
 
-    enable :sessions
+    # enable :sessions
     configure :development do
       register Sinatra::Reloader
     end
@@ -23,7 +23,7 @@ end
   end
 
   post '/bookmarks' do
-    Bookmark.create(url: params[:url])
+    Bookmark.create(url: params[:url], title: params[:title])
     redirect '/bookmarks'
   end
 
